@@ -28,14 +28,7 @@ set OPENAI_API_KEY=your-key
 ```
 Scripts read from folders next to where you run them (`lectures/`, `audios/`, `tts_input/`). Change the folder names at the top of each file if needed.
 
-## About the dates
-This work spans September 2024 to January 2026. The scripts were kept on my own machine and added to GitHub in October 2026.
 
-- **Author date** of each commit is the date of that file on my original disk (file-system timestamps). Most are NTFS records; a few (marked estimated in my notes) come from modified or created times or from files saved in the same session.
-- **Commit date** is the real day it was committed to GitHub (October 2026). `git log --format='%ad | %cd | %s'` shows both.
-- Two files had no timestamp of their own and are dated by their peers, not by their own record: `document-processing/pdftotxt.py` (same job and folder as the PDF-to-text script recorded on 22 Jul 2025) and `file-utilities/output_structure_genrator.py` (it creates the same prompt files as the July 2025 audio pipeline, 5 Jul 2025).
-- `README.md` and `.gitignore` were written at publish time and carry that day's date.
-- API keys and local folder paths were removed before publishing. Keys are now read from environment variables.
 
 | Period | What was built |
 |---|---|
